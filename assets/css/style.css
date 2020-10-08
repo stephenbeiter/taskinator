@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 :root {
@@ -18,7 +20,6 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -141,6 +142,7 @@ footer {
   padding: 10px 15px;
   background: var(--primary);
   font-size: 2.2rem;
+  font-weight: 600;
   border-radius: 12px;
   position: relative;
   top: -3px;
